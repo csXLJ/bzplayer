@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         B站视频倍速控制器脚本
 // @namespace    https://github.com/csXLJ/bzplayer/
-// @version      3.0
-// @description  调整B站视频播放速度
+// @version      4.0
+// @description  调整B站所有视频播放速度
 // @author       csXLJ
 // @icon         https://www.bilibili.com/favicon.ico?v=1
 // @include      https://www.bilibili.com/*
@@ -54,13 +54,13 @@ var controller = (function () {
         para.appendChild(node);
         para.style.position = "absolute";
         para.style.color = "white";
-        //para.style.textShadow = "2px 2px 5px #00a1d6";
         para.style.fontWeight = "bold";
         para.style.borderRadius = "15px";
         para.style.border = "2px solid #00a1d6";
         para.style.backgroundColor = "#00a1d6";
         para.style.padding = "1px";
-        para.style.opacity = "0.5";
+        //可自行调整显示速度透明度0 - 1
+        para.style.opacity = "0.8";
         para.style.fontFamily = "-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif";
         para.style.left = "1%";
         para.style.top = "1%";
