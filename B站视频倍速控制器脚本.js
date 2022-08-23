@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         B站视频倍速控制器脚本
 // @namespace    https://github.com/csXLJ/bzplayer/
-// @version      4.0
+// @version      5.0
 // @description  调整B站所有视频播放速度
 // @author       csXLJ
 // @icon         https://www.bilibili.com/favicon.ico?v=1
 // @include      https://www.bilibili.com/*
 // @match        https://www.bilibili.com/video/*
+// @require      https://code.jquery.com/jquery-2.1.4.min.js
 // @grant        none
 // @license      GPL-3.0-only
 // ==/UserScript==
